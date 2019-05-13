@@ -46,7 +46,7 @@
 /* ------------------------- Code for sections (containers) ------------------------- */
 .container {
     margin: 10%;
-    color: white;
+    background-color: white;
     position: relative;
     clear: both;
 }
