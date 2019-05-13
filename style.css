@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+  
+  h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4D4D4D;
+  }
+
+
+/* ------------------------- Code for the top navbar ------------------------- */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4D4D4D
+}
+
+.navbar li {
+    float: left;
+    border-right: 1px solid #bbb
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-family: Garamond;
+}
+
+.navbar li a:hover {
+    background-color: #EAB559;
+}
+
+.active {
+    background-color: #eab559;
+}
+
+/* ------------------------- Code for sections (containers) ------------------------- */
+.container {
+    margin: 10%;
+    color: white;
+    position: relative;
+    clear: both;
+}
+
+.container h1 {
+    font-family: Helvetica;
+    font-size: 4.5vw;
+    font-weight: bold;
+    color:#4D4D4D;
+    text-align: left;
+    display: inline;
+    position: absolute;
+  }
+
+.container h2 {
+    font-size: 3vw;
+    font-family: cursive;
+    display: inline;
+    position: absolute;
+    padding-top: 6%;
+}
+
+.container h3 {
+    font-size: 3vw;
+    font-family: Helvetica;
+    font-weight: Bold;
+    display: inline;
+    position: absolute;
+    padding-top: 4%;
+    color: #4D4D4D;
+}
+
+.container p {
+    font-family: Helvetica;
+    font-size: calc(10px + 1vw);
+    font-weight: 300px;
+    color: #4D4D4D;
+    line-height: calc(12px + 1.75vw);
+    margin-bottom: 2%;
+}
+
+.container a {
+    padding: 1%;
+    border: .25vw solid #EAB559;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #EAB559;
+    display: inline-block;
+    position: absolute;
+    font-family: Helvetica;
+    margin-top: 16%;
+}
+
+.intro {
+    font-family: Helvetica;
+    font-size: calc(10px + 1vw);
+    font-weight: bold;
+    color: #EAB559;
+    line-height: calc(12px + 1.75vw);
+}
+
+.first {
+    padding-top: 10%;
+}
+
+/* ------------------------- Code for images/buttons ------------------------- */
+#headerimg {
+    float: right;
+    width: 75%;
+    height: auto;
+    position: relative;
+}
+
+#divider {
+    float: center;
+    padding: 8% 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#divider2 {
+    float: center;
+    padding: 0 0 8% 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#imageleft {
+    float: left;
+    width: 25%;
+    height: auto;
+    position: relative;
+    padding-right: 5%;
+}
+
+#imageright {
+    float: right;
+    width: 30%;
+    height: auto;
+    position: relative;
+    padding: 0 0 5% 5%;
+}
+
+#captionright {
+    vertical-align: top;
+}
+
