@@ -46,7 +46,7 @@
 
 /* ------------------------- Code for sections (containers) ------------------------- */
 .container {
-    margin: 10%;
+    margin: 10% 10% 0 10%;
     background-color: white;
     position: relative;
     clear: both;
@@ -143,6 +143,14 @@
 #divider2 {
     float: center;
     padding: 0 0 8% 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+#divider3 {
+    float: center;
     width: 100%;
     height: auto;
     position: relative;
