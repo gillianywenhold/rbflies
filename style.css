@@ -3,16 +3,8 @@
     padding: 0;
     font-size: 16px;
 }
-  
-  h2 {
-    font-family: Helvetica;
-    font-size: 32px;
-    font-weight: bold;
-    color: #4D4D4D;
-  }
 
-
-/* ------------------------- Code for the top navbar ------------------------- */
+/* -------------------- rules for the top navbar --------------------- */
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -20,6 +12,7 @@
     overflow: hidden;
     background-color: #4D4D4D;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .navbar li {
@@ -34,36 +27,32 @@
     padding: 16px 18px;
     text-decoration: none;
     font-family: Garamond;
+    font-size: calc(6px + 1vw)
 }
 
 .navbar li a:hover {
     background-color: #EAB559;
 }
 
-.active {
+.navbar .active {
     background-color: #eab559;
 }
 
-/* ------------------------- Code for sections (containers) ------------------------- */
-.container {
-    margin: 10% 10% 0 10%;
-    background-color: white;
-    position: relative;
-    clear: both;
-    color: #4D4D4D
+/* -------------------- rules for the landing page/first section that appears --------------------- */
+#landing {
+    margin: 8% 10% 10% 10%;
 }
 
-.container h1 {
+#landing h1 {
     font-family: Helvetica;
     font-size: 4.5vw;
     font-weight: bold;
     color:#4D4D4D;
     text-align: left;
-    display: inline;
     position: absolute;
   }
 
-.container h2 {
+#landing h2 {
     font-size: 3vw;
     font-family: cursive;
     display: inline;
@@ -71,7 +60,7 @@
     padding-top: 6%;
 }
 
-.container h3 {
+#landing h3 {
     font-size: 3vw;
     font-family: Helvetica;
     font-weight: Bold;
@@ -81,16 +70,7 @@
     color: #4D4D4D;
 }
 
-.container p {
-    font-family: Helvetica;
-    font-size: calc(10px + 1vw);
-    font-weight: 300px;
-    color: #4D4D4D;
-    line-height: calc(12px + 1.75vw);
-    margin-bottom: 2%;
-}
-
-.container a {
+#landing a {
     padding: 1%;
     border: .25vw solid #EAB559;
     font-size: 1.5vw;
@@ -103,28 +83,6 @@
     margin-top: 16%;
 }
 
-.intro {
-    font-family: Helvetica;
-    font-size: calc(10px + 1vw);
-    font-weight: bold;
-    color: #EAB559;
-    line-height: calc(12px + 1.75vw);
-}
-
-.first {
-    padding-top: 10%;
-}
-
-#newsection {
-    font-size: 3vw;
-    font-family: Helvetica;
-    font-weight: Bold;
-    float: right;
-    padding-top: 4%;
-    color: #4D4D4D;
-}
-
-/* ------------------------- Code for images/buttons ------------------------- */
 #headerimg {
     float: right;
     width: 75%;
@@ -132,47 +90,61 @@
     position: relative;
 }
 
-#divider {
-    float: center;
-    padding: 8% 0;
-    width: 100%;
-    height: auto;
-    position: relative;
+/* -------------------- rules for main text blocks --------------------- */
+.container {
+    margin: 0 10% 0 10%;
+    color: #4D4D4D;
+    font-family: Helvetica;
 }
 
-#divider2 {
-    float: center;
-    padding: 0 0 8% 0;
-    width: 100%;
-    height: auto;
-    position: relative;
+.container h1 {
+    font-family: Helvetica;
+    font-size: calc(18px + 3vw);
+    font-weight: bold;
+    color: #4D4D4D;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .container h2 {
+    font-family: Helvetica;
+    font-size: calc(12px + 2vw);
+    font-weight: bold;
+    color: #4D4D4D;
+    text-align: left;
+    margin-bottom: 1.5%;
+    margin-top: 3%;
+  }
+
+.container p {
+    font-family: Helvetica;
+    font-size: 4.5vw;
+    font-weight: 300px;
+    color:#4D4D4D;
+    text-align: left;
+    font-size: calc(10px + 1vw);
+    line-height: calc(14px + 1.78vw);
+  }
+
+.intro {
+    font-family: Helvetica;
+    font-size: calc(10px + 1vw);
+    font-weight: bold;
+    color: #EAB559;
+    line-height: calc(14px + 1.85vw);
 }
 
-
-#divider3 {
-    float: center;
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-#imageleft {
-    float: left;
+/* -------------------- rules for main text block images --------------------- */
+.container img {
     width: 25%;
     height: auto;
     position: relative;
-    padding-right: 5%;
+    padding: 3% 3% 3% 3%;
 }
 
-#imageright {
-    float: right;
-    width: 30%;
+#divider {
+    padding: 6% 0;
+    width: 100%;
     height: auto;
     position: relative;
-    padding: 0 0 5% 5%;
 }
-
-#captionright {
-    vertical-align: top;
-}
-
