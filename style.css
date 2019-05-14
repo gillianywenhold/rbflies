@@ -18,7 +18,8 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4D4D4D
+    background-color: #4D4D4D;
+    display: flex;
 }
 
 .navbar li {
@@ -49,6 +50,7 @@
     background-color: white;
     position: relative;
     clear: both;
+    color: #4D4D4D
 }
 
 .container h1 {
@@ -111,6 +113,15 @@
 
 .first {
     padding-top: 10%;
+}
+
+#newsection {
+    font-size: 3vw;
+    font-family: Helvetica;
+    font-weight: Bold;
+    float: right;
+    padding-top: 4%;
+    color: #4D4D4D;
 }
 
 /* ------------------------- Code for images/buttons ------------------------- */
